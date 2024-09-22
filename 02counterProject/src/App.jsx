@@ -13,6 +13,7 @@ function App() {
 
     if (counter > 20) {
       counter = 20;
+      alert("Can't Add vlaue ")
     }else{
     setCounter(counter)
     }
@@ -24,9 +25,12 @@ function App() {
 
     if (counter < 0) {
       counter = 0;
+      alert("Can't Remove Value ")
     }else{
     setCounter(counter);
     }
+
+    
     
   }
 
